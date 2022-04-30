@@ -2,6 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36904abe-0b66-447d-ac6e-164e2c0edecf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/BasicsOfJav/AT10_ArrayLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BasicsOfJav/AT12_HashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaOOPSconcepts/AT01_constructor01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaOOPSconcepts/AT02_constructor02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaOOPSconcepts/AT03_Encapsulation01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaOOPSconcepts/AT04_Encapsulation02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LoopsNConditionalStatments/AT01_ForLoop01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LoopsNConditionalStatments/AT02_WhileLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LoopsNConditionalStatments/AT03_DoWhileLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LoopsNConditionalStatments/AT04_IfElse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LoopsNConditionalStatments/AT05_ElseIf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LoopsNConditionalStatments/AT06_SwitchStatement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +45,9 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="28DYdsXIS7iW5lIlXOkf3u9LjAw" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -46,81 +60,82 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="JUnit.AT09_AccessArrayEle.test13">
-    <configuration name="AT06_createAnObjectAndUseIt02.test10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AT04_Encapsulation02.envMethod03">
+    <configuration name="AT02_constructor02.conMethod02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="morningBatchProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BasicsOfJav.*" />
+          <option name="PATTERN" value="JavaOOPSconcepts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="BasicsOfJav" />
-      <option name="MAIN_CLASS_NAME" value="BasicsOfJav.AT06_createAnObjectAndUseIt02" />
-      <option name="METHOD_NAME" value="test10" />
+      <option name="PACKAGE_NAME" value="JavaOOPSconcepts" />
+      <option name="MAIN_CLASS_NAME" value="JavaOOPSconcepts.AT02_constructor02" />
+      <option name="METHOD_NAME" value="conMethod02" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AT07_staticmethod01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AT04_Encapsulation02.envMethod03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="morningBatchProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BasicsOfJav.*" />
+          <option name="PATTERN" value="JavaOOPSconcepts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="BasicsOfJav" />
-      <option name="MAIN_CLASS_NAME" value="BasicsOfJav.AT07_staticmethod01" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AT07_staticmethod01.test11" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="morningBatchProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BasicsOfJav.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="BasicsOfJav" />
-      <option name="MAIN_CLASS_NAME" value="BasicsOfJav.AT07_staticmethod01" />
-      <option name="METHOD_NAME" value="test11" />
+      <option name="PACKAGE_NAME" value="JavaOOPSconcepts" />
+      <option name="MAIN_CLASS_NAME" value="JavaOOPSconcepts.AT04_Encapsulation02" />
+      <option name="METHOD_NAME" value="envMethod03" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AT08_staticmethod02.test12" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AT04_IfElse.IfElseLoopLearn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="morningBatchProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BasicsOfJav.*" />
+          <option name="PATTERN" value="LoopsNConditionalStatments.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="BasicsOfJav" />
-      <option name="MAIN_CLASS_NAME" value="BasicsOfJav.AT08_staticmethod02" />
-      <option name="METHOD_NAME" value="test12" />
+      <option name="PACKAGE_NAME" value="LoopsNConditionalStatments" />
+      <option name="MAIN_CLASS_NAME" value="LoopsNConditionalStatments.AT04_IfElse" />
+      <option name="METHOD_NAME" value="IfElseLoopLearn" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AT09_AccessArrayEle.test13" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AT05_ElseIf.ElseIfLoopLearn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="morningBatchProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BasicsOfJav.*" />
+          <option name="PATTERN" value="LoopsNConditionalStatments.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="BasicsOfJav" />
-      <option name="MAIN_CLASS_NAME" value="BasicsOfJav.AT09_AccessArrayEle" />
-      <option name="METHOD_NAME" value="test13" />
+      <option name="PACKAGE_NAME" value="LoopsNConditionalStatments" />
+      <option name="MAIN_CLASS_NAME" value="LoopsNConditionalStatments.AT05_ElseIf" />
+      <option name="METHOD_NAME" value="ElseIfLoopLearn" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AT06_SwitchStatement.SwitchStatmentLearn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="morningBatchProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LoopsNConditionalStatments.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="LoopsNConditionalStatments" />
+      <option name="MAIN_CLASS_NAME" value="LoopsNConditionalStatments.AT06_SwitchStatement" />
+      <option name="METHOD_NAME" value="SwitchStatmentLearn" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -128,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AT09_AccessArrayEle.test13" />
-        <item itemvalue="JUnit.AT08_staticmethod02.test12" />
-        <item itemvalue="JUnit.AT07_staticmethod01.test11" />
-        <item itemvalue="JUnit.AT07_staticmethod01" />
-        <item itemvalue="JUnit.AT06_createAnObjectAndUseIt02.test10" />
+        <item itemvalue="JUnit.AT04_Encapsulation02.envMethod03" />
+        <item itemvalue="JUnit.AT02_constructor02.conMethod02" />
+        <item itemvalue="JUnit.AT06_SwitchStatement.SwitchStatmentLearn" />
+        <item itemvalue="JUnit.AT05_ElseIf.ElseIfLoopLearn" />
+        <item itemvalue="JUnit.AT04_IfElse.IfElseLoopLearn" />
       </list>
     </recent_temporary>
   </component>
@@ -157,25 +172,25 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1326" height="227" key="GridCell.Tab.0.bottom" timestamp="1651134473549">
+    <state width="1326" height="227" key="GridCell.Tab.0.bottom" timestamp="1651311712356">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1326" height="227" key="GridCell.Tab.0.bottom/0.0.1368.872/2736.0.1600.860@0.0.1368.872" timestamp="1651134473549" />
+    <state width="1326" height="227" key="GridCell.Tab.0.bottom/0.0.1368.872/2736.0.1600.860@0.0.1368.872" timestamp="1651311712356" />
     <state width="1326" height="227" key="GridCell.Tab.0.bottom/0.0.1368.872@0.0.1368.872" timestamp="1650949138562" />
-    <state width="1326" height="227" key="GridCell.Tab.0.center" timestamp="1651134473549">
+    <state width="1326" height="227" key="GridCell.Tab.0.center" timestamp="1651311712356">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1326" height="227" key="GridCell.Tab.0.center/0.0.1368.872/2736.0.1600.860@0.0.1368.872" timestamp="1651134473549" />
+    <state width="1326" height="227" key="GridCell.Tab.0.center/0.0.1368.872/2736.0.1600.860@0.0.1368.872" timestamp="1651311712356" />
     <state width="1326" height="227" key="GridCell.Tab.0.center/0.0.1368.872@0.0.1368.872" timestamp="1650949138562" />
-    <state width="1326" height="227" key="GridCell.Tab.0.left" timestamp="1651134473549">
+    <state width="1326" height="227" key="GridCell.Tab.0.left" timestamp="1651311712356">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1326" height="227" key="GridCell.Tab.0.left/0.0.1368.872/2736.0.1600.860@0.0.1368.872" timestamp="1651134473549" />
+    <state width="1326" height="227" key="GridCell.Tab.0.left/0.0.1368.872/2736.0.1600.860@0.0.1368.872" timestamp="1651311712356" />
     <state width="1326" height="227" key="GridCell.Tab.0.left/0.0.1368.872@0.0.1368.872" timestamp="1650949138561" />
-    <state width="1326" height="227" key="GridCell.Tab.0.right" timestamp="1651134473549">
+    <state width="1326" height="227" key="GridCell.Tab.0.right" timestamp="1651311712356">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1326" height="227" key="GridCell.Tab.0.right/0.0.1368.872/2736.0.1600.860@0.0.1368.872" timestamp="1651134473549" />
+    <state width="1326" height="227" key="GridCell.Tab.0.right/0.0.1368.872/2736.0.1600.860@0.0.1368.872" timestamp="1651311712356" />
     <state width="1326" height="227" key="GridCell.Tab.0.right/0.0.1368.872@0.0.1368.872" timestamp="1650949138562" />
     <state x="215" y="94" key="Maven.ArtifactSearchDialog" timestamp="1650936811555">
       <screen x="0" y="0" width="1368" height="872" />
@@ -185,10 +200,10 @@
       <screen x="0" y="0" width="1368" height="872" />
     </state>
     <state x="165" y="14" key="SettingsEditor/0.0.1368.872/2736.0.1600.860@0.0.1368.872" timestamp="1650935861158" />
-    <state x="392" y="264" key="com.intellij.ide.util.TipDialog" timestamp="1651129949918">
+    <state x="392" y="264" key="com.intellij.ide.util.TipDialog" timestamp="1651308946028">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state x="392" y="264" key="com.intellij.ide.util.TipDialog/0.0.1368.872/2736.0.1600.860@0.0.1368.872" timestamp="1651129949918" />
+    <state x="392" y="264" key="com.intellij.ide.util.TipDialog/0.0.1368.872/2736.0.1600.860@0.0.1368.872" timestamp="1651308946028" />
     <state x="391" y="191" width="592" height="488" key="find.popup" timestamp="1651134458123">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
