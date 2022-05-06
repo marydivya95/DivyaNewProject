@@ -2,19 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36904abe-0b66-447d-ac6e-164e2c0edecf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/BasicsOfJav/AT10_ArrayLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BasicsOfJav/AT12_HashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaOOPSconcepts/AT01_constructor01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaOOPSconcepts/AT02_constructor02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaOOPSconcepts/AT03_Encapsulation01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JavaOOPSconcepts/AT04_Encapsulation02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LoopsNConditionalStatments/AT01_ForLoop01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LoopsNConditionalStatments/AT02_WhileLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LoopsNConditionalStatments/AT03_DoWhileLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LoopsNConditionalStatments/AT04_IfElse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LoopsNConditionalStatments/AT05_ElseIf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LoopsNConditionalStatments/AT06_SwitchStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SeleniumLearning/AT01_NavigateTitleAssertScreenshot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaOOPSconcepts/AT05_InHeritance01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaOOPSconcepts/AT06_InHeritance02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaOOPSconcepts/AT07_InHeritance03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaOOPSconcepts/AT08_Polymorphism_MethodOverLoading01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaOOPSconcepts/AT09_Polymorphism_MethodOverLoading02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaOOPSconcepts/AT10_Polymorphism_MethodOverRiding01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaOOPSconcepts/AT11_Polymorphism_MethodOverRiding02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaOOPSconcepts/AT13_AbstractClass01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaOOPSconcepts/AT14_AbstractClass02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaOOPSconcepts/AT15_Interface01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaOOPSconcepts/AT16_Interface02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/JavaOOPSconcepts/AT04_Encapsulation02.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/JavaOOPSconcepts/AT04_Encapsulation02.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,8 +62,39 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="JUnit.AT04_Encapsulation02.envMethod03">
-    <configuration name="AT02_constructor02.conMethod02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AT01_NavigateTitleAssertScreenshot.NavHn">
+    <configuration name="AT01_NavigateTitleAssertScreenshot" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="morningBatchProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumLearning.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumLearning" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumLearning.AT01_NavigateTitleAssertScreenshot" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AT01_NavigateTitleAssertScreenshot.NavHn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="morningBatchProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumLearning.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumLearning" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumLearning.AT01_NavigateTitleAssertScreenshot" />
+      <option name="METHOD_NAME" value="NavHn" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AT11_Polymorphism_MethodOverRiding02.PolyOverRideOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="morningBatchProject" />
       <extension name="coverage">
         <pattern>
@@ -70,14 +103,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="JavaOOPSconcepts" />
-      <option name="MAIN_CLASS_NAME" value="JavaOOPSconcepts.AT02_constructor02" />
-      <option name="METHOD_NAME" value="conMethod02" />
+      <option name="MAIN_CLASS_NAME" value="JavaOOPSconcepts.AT11_Polymorphism_MethodOverRiding02" />
+      <option name="METHOD_NAME" value="PolyOverRideOne" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AT04_Encapsulation02.envMethod03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AT14_AbstractClass02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="morningBatchProject" />
       <extension name="coverage">
         <pattern>
@@ -86,68 +119,34 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="JavaOOPSconcepts" />
-      <option name="MAIN_CLASS_NAME" value="JavaOOPSconcepts.AT04_Encapsulation02" />
-      <option name="METHOD_NAME" value="envMethod03" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="JavaOOPSconcepts.AT14_AbstractClass02" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AT04_IfElse.IfElseLoopLearn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AT16_Interface02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="morningBatchProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LoopsNConditionalStatments.*" />
+          <option name="PATTERN" value="JavaOOPSconcepts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="LoopsNConditionalStatments" />
-      <option name="MAIN_CLASS_NAME" value="LoopsNConditionalStatments.AT04_IfElse" />
-      <option name="METHOD_NAME" value="IfElseLoopLearn" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AT05_ElseIf.ElseIfLoopLearn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="morningBatchProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LoopsNConditionalStatments.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="LoopsNConditionalStatments" />
-      <option name="MAIN_CLASS_NAME" value="LoopsNConditionalStatments.AT05_ElseIf" />
-      <option name="METHOD_NAME" value="ElseIfLoopLearn" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AT06_SwitchStatement.SwitchStatmentLearn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="morningBatchProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LoopsNConditionalStatments.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="LoopsNConditionalStatments" />
-      <option name="MAIN_CLASS_NAME" value="LoopsNConditionalStatments.AT06_SwitchStatement" />
-      <option name="METHOD_NAME" value="SwitchStatmentLearn" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="JavaOOPSconcepts" />
+      <option name="MAIN_CLASS_NAME" value="JavaOOPSconcepts.AT16_Interface02" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AT04_Encapsulation02.envMethod03" />
-        <item itemvalue="JUnit.AT02_constructor02.conMethod02" />
-        <item itemvalue="JUnit.AT06_SwitchStatement.SwitchStatmentLearn" />
-        <item itemvalue="JUnit.AT05_ElseIf.ElseIfLoopLearn" />
-        <item itemvalue="JUnit.AT04_IfElse.IfElseLoopLearn" />
+        <item itemvalue="JUnit.AT01_NavigateTitleAssertScreenshot.NavHn" />
+        <item itemvalue="JUnit.AT01_NavigateTitleAssertScreenshot" />
+        <item itemvalue="JUnit.AT16_Interface02" />
+        <item itemvalue="JUnit.AT14_AbstractClass02" />
+        <item itemvalue="JUnit.AT11_Polymorphism_MethodOverRiding02.PolyOverRideOne" />
       </list>
     </recent_temporary>
   </component>
@@ -172,25 +171,25 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1326" height="227" key="GridCell.Tab.0.bottom" timestamp="1651311712356">
+    <state width="1326" height="227" key="GridCell.Tab.0.bottom" timestamp="1651796339898">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1326" height="227" key="GridCell.Tab.0.bottom/0.0.1368.872/2736.0.1600.860@0.0.1368.872" timestamp="1651311712356" />
+    <state width="1326" height="227" key="GridCell.Tab.0.bottom/0.0.1368.872/2736.0.1600.860@0.0.1368.872" timestamp="1651796339898" />
     <state width="1326" height="227" key="GridCell.Tab.0.bottom/0.0.1368.872@0.0.1368.872" timestamp="1650949138562" />
-    <state width="1326" height="227" key="GridCell.Tab.0.center" timestamp="1651311712356">
+    <state width="1326" height="227" key="GridCell.Tab.0.center" timestamp="1651796339898">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1326" height="227" key="GridCell.Tab.0.center/0.0.1368.872/2736.0.1600.860@0.0.1368.872" timestamp="1651311712356" />
+    <state width="1326" height="227" key="GridCell.Tab.0.center/0.0.1368.872/2736.0.1600.860@0.0.1368.872" timestamp="1651796339898" />
     <state width="1326" height="227" key="GridCell.Tab.0.center/0.0.1368.872@0.0.1368.872" timestamp="1650949138562" />
-    <state width="1326" height="227" key="GridCell.Tab.0.left" timestamp="1651311712356">
+    <state width="1326" height="227" key="GridCell.Tab.0.left" timestamp="1651796339898">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1326" height="227" key="GridCell.Tab.0.left/0.0.1368.872/2736.0.1600.860@0.0.1368.872" timestamp="1651311712356" />
+    <state width="1326" height="227" key="GridCell.Tab.0.left/0.0.1368.872/2736.0.1600.860@0.0.1368.872" timestamp="1651796339898" />
     <state width="1326" height="227" key="GridCell.Tab.0.left/0.0.1368.872@0.0.1368.872" timestamp="1650949138561" />
-    <state width="1326" height="227" key="GridCell.Tab.0.right" timestamp="1651311712356">
+    <state width="1326" height="227" key="GridCell.Tab.0.right" timestamp="1651796339898">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1326" height="227" key="GridCell.Tab.0.right/0.0.1368.872/2736.0.1600.860@0.0.1368.872" timestamp="1651311712356" />
+    <state width="1326" height="227" key="GridCell.Tab.0.right/0.0.1368.872/2736.0.1600.860@0.0.1368.872" timestamp="1651796339898" />
     <state width="1326" height="227" key="GridCell.Tab.0.right/0.0.1368.872@0.0.1368.872" timestamp="1650949138562" />
     <state x="215" y="94" key="Maven.ArtifactSearchDialog" timestamp="1650936811555">
       <screen x="0" y="0" width="1368" height="872" />
@@ -200,14 +199,14 @@
       <screen x="0" y="0" width="1368" height="872" />
     </state>
     <state x="165" y="14" key="SettingsEditor/0.0.1368.872/2736.0.1600.860@0.0.1368.872" timestamp="1650935861158" />
-    <state x="392" y="264" key="com.intellij.ide.util.TipDialog" timestamp="1651308946028">
+    <state x="392" y="264" key="com.intellij.ide.util.TipDialog" timestamp="1651460440656">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state x="392" y="264" key="com.intellij.ide.util.TipDialog/0.0.1368.872/2736.0.1600.860@0.0.1368.872" timestamp="1651308946028" />
-    <state x="391" y="191" width="592" height="488" key="find.popup" timestamp="1651134458123">
+    <state x="392" y="264" key="com.intellij.ide.util.TipDialog/0.0.1368.872/2736.0.1600.860@0.0.1368.872" timestamp="1651460440656" />
+    <state x="391" y="191" width="592" height="488" key="find.popup" timestamp="1651796631188">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state x="391" y="191" width="592" height="488" key="find.popup/0.0.1368.872/2736.0.1600.860@0.0.1368.872" timestamp="1651134458123" />
+    <state x="391" y="191" width="592" height="488" key="find.popup/0.0.1368.872/2736.0.1600.860@0.0.1368.872" timestamp="1651796631188" />
     <state x="276" y="144" width="820" height="582" key="new project wizard" timestamp="1650753184578">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
