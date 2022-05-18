@@ -2,64 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36904abe-0b66-447d-ac6e-164e2c0edecf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SeleniumLearning/AT05_NavigateBackFront.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SeleniumLearning/AT06_RadioButtonSelect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SeleniumLearning/AT07_SwitchTabs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SeleniumLearning/AT08_Iframe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SeleniumLearning/AT09_listofLinks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SeleniumLearning/AT10_DropDownSelect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SeleniumLearning/AT13_UserDir.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PlayPen/AT01_MeetingAvailableByJurisdiciton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PlayPen/AT03_dateget.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PlayPen/AT05_GetJsonData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PlayPen/AT05_GetJsonData_copy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PlayPen/AT06_GetAllRacesInMeeting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PlayPen/ExtraDataFromJson_Consumer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PlayPen/getcall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PlayPen/AT02_MeetingWithStatusOpen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SeleniumLearning/AT01_NavigateTitleAssertScreenshot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SeleniumLearning/AT01_NavigateTitleAssertScreenshot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SeleniumLearning/AT02_LocatorsLearning.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SeleniumLearning/AT02_LocatorsLearning.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SeleniumLearning/AT03_LocatorsLearning02_ScrollToElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SeleniumLearning/AT03_LocatorsLearning02_ScrollToElement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SeleniumLearning/AT04_AlertHandling.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SeleniumLearning/AT04_AlertHandling.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/WicketApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/WicketApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/BasicsOfJav/AT01_MainClassUsage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BasicsOfJav/AT01_MainClassUsage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/BasicsOfJav/AT02_LearnAboutMethod_JUnit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BasicsOfJav/AT02_LearnAboutMethod_JUnit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/BasicsOfJav/AT03_StringInt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BasicsOfJav/AT03_StringInt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/BasicsOfJav/AT04_GlobalVariables.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BasicsOfJav/AT04_GlobalVariables.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/BasicsOfJav/AT05_createAnObjectAndUseIt01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BasicsOfJav/AT05_createAnObjectAndUseIt01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/BasicsOfJav/AT06_createAnObjectAndUseIt02.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BasicsOfJav/AT06_createAnObjectAndUseIt02.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/BasicsOfJav/AT07_staticmethod01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BasicsOfJav/AT07_staticmethod01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/BasicsOfJav/AT08_staticmethod02.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BasicsOfJav/AT08_staticmethod02.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/BasicsOfJav/AT09_AccessArrayEle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BasicsOfJav/AT09_AccessArrayEle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/BasicsOfJav/AT10_ArrayLoop.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BasicsOfJav/AT10_ArrayLoop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/BasicsOfJav/AT12_HashMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BasicsOfJav/AT12_HashMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/BasicsOfJav/PropertiesFileExtractor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BasicsOfJav/PropertiesFileExtractor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/BasicsOfJav/ymlusageInClassFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BasicsOfJav/ymlusageInClassFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/JavaOOPSconcepts/AT01_constructor01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/JavaOOPSconcepts/AT01_constructor01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/JavaOOPSconcepts/AT02_constructor02.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/JavaOOPSconcepts/AT02_constructor02.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/JavaOOPSconcepts/AT03_Encapsulation01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/JavaOOPSconcepts/AT03_Encapsulation01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/JavaOOPSconcepts/AT04_Encapsulation02.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/JavaOOPSconcepts/AT04_Encapsulation02.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/JavaOOPSconcepts/AT05_InHeritance01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/JavaOOPSconcepts/AT05_InHeritance01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/JavaOOPSconcepts/AT06_InHeritance02.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/JavaOOPSconcepts/AT06_InHeritance02.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/JavaOOPSconcepts/AT07_InHeritance03.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/JavaOOPSconcepts/AT07_InHeritance03.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/JavaOOPSconcepts/AT08_Polymorphism_MethodOverLoading01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/JavaOOPSconcepts/AT08_Polymorphism_MethodOverLoading01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/JavaOOPSconcepts/AT09_Polymorphism_MethodOverLoading02.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/JavaOOPSconcepts/AT09_Polymorphism_MethodOverLoading02.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/JavaOOPSconcepts/AT10_Polymorphism_MethodOverRiding01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/JavaOOPSconcepts/AT10_Polymorphism_MethodOverRiding01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/JavaOOPSconcepts/AT11_Polymorphism_MethodOverRiding02.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/JavaOOPSconcepts/AT11_Polymorphism_MethodOverRiding02.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/JavaOOPSconcepts/AT13_AbstractClass01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/JavaOOPSconcepts/AT13_AbstractClass01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/JavaOOPSconcepts/AT14_AbstractClass02.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/JavaOOPSconcepts/AT14_AbstractClass02.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/JavaOOPSconcepts/AT15_Interface01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/JavaOOPSconcepts/AT15_Interface01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/JavaOOPSconcepts/AT16_Interface02.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/JavaOOPSconcepts/AT16_Interface02.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/LoopsNConditionalStatments/AT01_ForLoop01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/LoopsNConditionalStatments/AT01_ForLoop01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/LoopsNConditionalStatments/AT02_WhileLoop.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/LoopsNConditionalStatments/AT02_WhileLoop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/LoopsNConditionalStatments/AT03_DoWhileLoop.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/LoopsNConditionalStatments/AT03_DoWhileLoop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/LoopsNConditionalStatments/AT04_IfElse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/LoopsNConditionalStatments/AT04_IfElse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/LoopsNConditionalStatments/AT05_ElseIf.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/LoopsNConditionalStatments/AT05_ElseIf.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/LoopsNConditionalStatments/AT06_SwitchStatement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/LoopsNConditionalStatments/AT06_SwitchStatement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/PlayPen/getcall.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
