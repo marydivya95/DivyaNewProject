@@ -5,12 +5,13 @@ import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import org.junit.jupiter.api.Test;
 
-public class getcall {
+public class AT02_MeetingWithStatusOpen {
     @Test
-    public void getcall() throws InterruptedException {
-        Response response= RestAssured.given()
+    public void getcall() throws  InterruptedException, NoSuchFieldException {
+
+          Response response= RestAssured.given()
                 .when()
-                .get("https://api.congo.beta.tab.com.au/v1/tab-info-service/racing/dates/2022-05-09/meetings/R/TRE/races/1?jurisdiction=VIC")
+                .get("https://api.congo.beta.tab.com.au/v1/tab-info-service/racing/dates/2022-05-11/meetings/R/GUN/races/1?jurisdiction=VIC")
                 .then()
                 //.statusCode(StatusCode1)
                 .and()
