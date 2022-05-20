@@ -1,0 +1,5 @@
+
+@smokeTest
+Scenario: Navigate to HN website                                  [90m# src/test/java/FeatureFiles/FF01_NavigateToHNwebsite.feature:10[0m
+  [32mGiven [0m[32mopen the browser and enter url and navigate to HN website[0m [90m# StepDefinations.SD01_NavigateToHNwebsite.open_the_browser_and_enter_url_and_navigate_to_hn_website()[0m
+  [32mThen [0m[32mget title and assert[0m                                       [90m# StepDefinations.SD01_NavigateToHNwebsite.get_title_and_assert()[0m

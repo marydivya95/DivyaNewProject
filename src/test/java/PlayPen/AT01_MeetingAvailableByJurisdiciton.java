@@ -1,5 +1,6 @@
 package PlayPen;
 import java.net.Socket;
+import java.util.ArrayList;
 import java.util.HashMap;
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
@@ -14,7 +15,7 @@ public class AT01_MeetingAvailableByJurisdiciton {
 
           Response response= RestAssured.given()
                 .when()
-                .get("https://api.congo.beta.tab.com.au/v1/tab-info-service/racing/dates/2022-05-17/meetings?jurisdiction=VIC")
+                .get("https://api.congo.beta.tab.com.au/v1/tab-info-service/racing/dates/2022-05-20/meetings?jurisdiction=VIC")
                 .then()
                 //.statusCode(StatusCode1)
                 .and()
@@ -49,13 +50,14 @@ public class AT01_MeetingAvailableByJurisdiciton {
 // put into hashmap
         Map<Object, Object> map = new HashMap<>();
 
-        for (int i = 0; i <RaceTypeCount; i++) {
+        for (int i = 0; i<RaceTypeCount; i++) {
             System.out.println(i);
             map.put(venueMnemonic.get(i), raceType.get(i));
             System.out.println(map);
         }
 
         //get data from hashmap
+        outerloop:
         for (Map.Entry<Object, Object> entry : map.entrySet()) {
             if (entry.getKey() != null) {
 
@@ -63,7 +65,36 @@ public class AT01_MeetingAvailableByJurisdiciton {
                 Object v = entry.getValue();
                 System.out.println("Key: " + k + ", Value: " + v);
 
-                String url = "https://api.congo.beta.tab.com.au/v1/tab-info-service/racing/dates/2022-05-17/meetings/" + v + "/" + k + "/races/1?jurisdiction=VIC";
+
+
+                //get list of races in meeting
+                Response response3= RestAssured.given()
+                        .when()
+                        .get("https://api.congo.beta.tab.com.au/v1/tab-info-service/racing/dates/2022-05-20/meetings/" + v + "/" + k + "/races?jurisdiction=VIC")
+                        .then()
+                        //.statusCode(StatusCode1)
+                        .and()
+                        .log().all()
+                        .extract().response()
+                        ;
+
+                Thread.sleep(1000);
+                //get one key value from output
+                JsonPath jsXpath3 = new JsonPath(response3.asString());
+
+                //Get Race Number [This is a Array]
+                // Object raceNumber= jsXpath.get("races.raceNumber");
+                //   System.out.println("MeetingName is : " + raceNumber);
+
+//        //Get venueMnemonic [This is a Array]
+                List raceNumber= jsXpath3.get("races.raceNumber");
+                System.out.println("venueMnemonic is : " + raceNumber);
+                int raceNumberCount=  raceNumber.size();
+                System.out.println("raceNumberCount is : " + raceNumberCount);
+                for(int m=0;m<raceNumberCount;m++){
+                    System.out.println(raceNumber.get(m));
+
+                String url = "https://api.congo.beta.tab.com.au/v1/tab-info-service/racing/dates/2022-05-20/meetings/" + v + "/" + k + "/races/"+raceNumber.get(m)+"?jurisdiction=VIC";
                 System.out.println("url : "+url);
 // second part
                 Response response1= RestAssured.given()
@@ -81,6 +112,11 @@ public class AT01_MeetingAvailableByJurisdiciton {
                 Thread.sleep(1000);
                 //get one key value from output
                 JsonPath jsXpath1 = new JsonPath(response1.asString());
+
+                    //Get all the pools
+                    ArrayList BetTypes = jsXpath1.get("betTypes.wageringProduct");
+
+                    if (BetTypes.size()!=0){
 
                 //Get Race Name
                 Object raceName1= jsXpath1.get("raceName");
@@ -102,16 +138,24 @@ public class AT01_MeetingAvailableByJurisdiciton {
                 Object RunnerName1 = jsXpath1.get("runners.runnerName");
                 System.out.println("RunnerName is : " + RunnerName1);
 
-                //Get all the pools
-                Object BetTypes = jsXpath1.get("betTypes.wageringProduct");
 
-                if (BetTypes != null){
+
+                    System.out.println("in the array");
                     System.out.println("All Bets Available for this race are : "+ BetTypes);
-                    break;
+                    System.out.println("in the break");
+
+                }
+                    else{
+                        break;
+                    }
+                  //  System.out.println("value of m is :"+(m+1));
+                if((m+1)==raceNumberCount){
+                    System.out.println("Race number is : "+(m+1));
+                    System.out.println("this is outerbreak");
+                    break  outerloop;
                 }
 
-
-
+                }
             }
         }
 

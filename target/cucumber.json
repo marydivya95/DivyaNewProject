@@ -1,0 +1,53 @@
+[
+  {
+    "line": 8,
+    "elements": [
+      {
+        "start_timestamp": "2022-05-20T08:22:31.177Z",
+        "line": 10,
+        "name": "Navigate to HN website",
+        "description": "",
+        "id": "hn-homepage;navigate-to-hn-website",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 28777000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "open the browser and enter url and navigate to HN website",
+            "match": {
+              "location": "StepDefinations.SD01_NavigateToHNwebsite.open_the_browser_and_enter_url_and_navigate_to_hn_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 65000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "get title and assert",
+            "match": {
+              "location": "StepDefinations.SD01_NavigateToHNwebsite.get_title_and_assert()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "HN homepage",
+    "description": "",
+    "id": "hn-homepage",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/FeatureFiles/FF01_NavigateToHNwebsite.feature",
+    "tags": []
+  }
+]
