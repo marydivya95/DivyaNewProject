@@ -3,7 +3,7 @@
     "line": 8,
     "elements": [
       {
-        "start_timestamp": "2022-05-20T08:22:31.177Z",
+        "start_timestamp": "2022-05-20T22:36:58.040Z",
         "line": 10,
         "name": "Navigate to HN website",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 28777000000,
+              "duration": 87474005100,
               "status": "passed"
             },
             "line": 11,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 65000000,
+              "duration": 12498900,
               "status": "passed"
             },
             "line": 12,
@@ -48,6 +48,57 @@
     "id": "hn-homepage",
     "keyword": "Feature",
     "uri": "file:src/test/java/FeatureFiles/FF01_NavigateToHNwebsite.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-05-20T22:38:25.744Z",
+        "line": 3,
+        "name": "Navigate to Login screen",
+        "description": "",
+        "id": "login-functionality-testing;navigate-to-login-screen",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2499700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "click on Account link",
+            "match": {
+              "location": "StepDefinations.SD02_LoginScreen.click_on_account_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 497700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Assert on login screen",
+            "match": {
+              "location": "StepDefinations.SD02_LoginScreen.assert_on_login_screen()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Login functionality testing",
+    "description": "",
+    "id": "login-functionality-testing",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/FeatureFiles/FF02_LoginScreen.feature",
     "tags": []
   }
 ]

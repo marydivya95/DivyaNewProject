@@ -3,3 +3,8 @@
 Scenario: Navigate to HN website                                  [90m# src/test/java/FeatureFiles/FF01_NavigateToHNwebsite.feature:10[0m
   [32mGiven [0m[32mopen the browser and enter url and navigate to HN website[0m [90m# StepDefinations.SD01_NavigateToHNwebsite.open_the_browser_and_enter_url_and_navigate_to_hn_website()[0m
   [32mThen [0m[32mget title and assert[0m                                       [90m# StepDefinations.SD01_NavigateToHNwebsite.get_title_and_assert()[0m
+
+@smokeTest
+Scenario: Navigate to Login screen [90m# src/test/java/FeatureFiles/FF02_LoginScreen.feature:3[0m
+  [32mThen [0m[32mclick on Account link[0m       [90m# StepDefinations.SD02_LoginScreen.click_on_account_link()[0m
+  [32mAnd [0m[32mAssert on login screen[0m       [90m# StepDefinations.SD02_LoginScreen.assert_on_login_screen()[0m
